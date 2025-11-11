@@ -1,5 +1,41 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+}
+
+.container{
+    padding: 0 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+    padding: 20px 0px;
+}
+
+.logo{
+    width: 140x;
+    height: 70px;
+}
+
+.user-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-info{
+    display: flex;
+}
+
+.user-display-name{
+    margin: 0 10px;
+}
+
+.user-location{
+    margin: 0 10px 10px 10px;
 }
 

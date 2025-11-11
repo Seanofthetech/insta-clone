@@ -7,16 +7,24 @@
     </head>
     <body>
         <header>
-            <img src="images/logo.png" alt="A logo in old English font that says Oldagram">
-            <img src="user-avatar.png" alt="The user avatar for Per">
+            <div class="container"></div>
+                <img class="logo" src="images/logo.png" alt="A logo in old English font that says Oldagram">
+                <img class="user-avatar" src="images/user-avatar.png" alt="The user avatar for Per">
+            </div>
         </header>
 
         <main>
 
-            <section class="user-info">
-                <img src="images/avatar-vangogh.jpg" alt="The poster avatar of van Gogh">
-                <h2 class="user-display-name">Vincent van Gogh</h2>
-                <p class="user-location">Zundert, Netherlands"</p>
+            <section class="poster-info">
+                <div class="container">
+                    <div class="user-info">
+                        <img class="user-avatar" src="images/avatar-vangogh.jpg" alt="The poster avatar of van Gogh">
+                        <div class="user-text">
+                            <h2 class="user-display-name">Vincent van Gogh</h2>
+                            <p class="user-location">Zundert, Netherlands"</p>
+                        </div>
+                    </div>    
+                </div>
             </section>
 
             <section class="post">
@@ -24,17 +32,21 @@
             </section>
 
             <section class="reaction-btn">
-                <button class="like-btn"></button>
-                <button class="comment-btn"></button>
-                <a href="#" target="_blank" class="dm-btn"></a>
+                <div class="container">
+                    <button class="like-btn"></button>
+                    <button class="comment-btn"></button>
+                    <a href="#" target="_blank" class="dm-btn"></a>
+                </div>
             </section>
 
             <section class="reactions">
-                <h3 class="like-count">21 likes</h3>
-                    <div class="comments">
-                        <h3 class="username">vincey1853</h3>
-                        <p class="user-comment">just took a few mushrooms lol</p>
-                    </div>
+                <div class="container">
+                    <h3 class="like-count">21 likes</h3>
+                        <div class="comments">
+                            <h3 class="username">vincey1853</h3>
+                            <p class="user-comment">just took a few mushrooms lol</p>
+                        </div>
+                </div>
             </section>
 
         </main>
