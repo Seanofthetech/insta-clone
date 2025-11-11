@@ -4,30 +4,34 @@
     </head>
     <body>
         <header>
-            <img src="images/logo.png">
-            <img src="user-avatar.png">
+            <img src="images/logo.png" alt="A logo in old English font that says Oldagram">
+            <img src="user-avatar.png" alt="The user avatar for Per">
         </header>
 
         <main>
 
-            <section class="profile">
-                avatar: "images/avatar-vangogh.jpg"
-                name: "Vincent van Gogh"
-                location: "Zundert, Netherlands"
+            <section class="user-info">
+                <img src="images/avatar-vangogh.jpg" alt="The poster avatar of van Gogh">
+                <h2 class="user-display-name">Vincent van Gogh</h2>
+                <p class="user-location">Zundert, Netherlands"</p>
             </section>
 
             <section class="post">
-                post: "images/post-vangogh.jpg"
+                <img src="images/post-vangogh.jpg" alt="A self-portrait of Vincent van Gogh">
             </section>
 
             <section class="reaction-btn">
-                <!-- this is where the like, comment, and dm buttons will go-->
+                <button class="like-btn"></button>
+                <button class="comment-btn"></button>
+                <a href="#" target="_blank" class="dm-btn"></a>
             </section>
 
-            <section class="comments">
-                likes: 21
-                username: "vincey1853"
-                comment: "just took a few mushrooms lol"
+            <section class="reactions">
+                <h3 class="like-count">21 likes</h3>
+                    <div class="comments">
+                        <h3 class="username">vincey1853</h3>
+                        <p class="user-comment">just took a few mushrooms lol</p>
+                    </div>
             </section>
 
         </main>
